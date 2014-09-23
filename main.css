@@ -1,0 +1,14 @@
+.textroller-container{}
+
+.textroller-container > div.textroller-item {
+	display: none;
+}
+
+div.textroller-item.active {
+	display: block;
+}
+
+div.textroller-item div {
+	font-size: 20px;
+	color: red;
+}
