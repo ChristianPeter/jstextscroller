@@ -1,5 +1,5 @@
 // scroller plugin
-(function($, window, document) {
+;(function($, window, document, undefined) {
 		$.fn.textroller = function (duration) {			
 			var current = 0;
 			var items = $(this).children();			
